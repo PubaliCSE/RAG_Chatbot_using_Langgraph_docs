@@ -21,7 +21,7 @@ def collect_docs(docs_dir):
     return all_docs
 
 if __name__ == "__main__":
-    docs_path = "data/langgraph-docs"
+    docs_path = "data/docs/"
     documents = collect_docs(docs_path)
     print(f"✅ Loaded {len(documents)} documentation files.")
     
