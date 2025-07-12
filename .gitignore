@@ -1,13 +1,24 @@
-# Ignore virtual environment
+# Python virtual environments
+.venv/
 venv/
 
-# Bytecode & cache
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Editor & OS files
-.vscode/
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS files
 .DS_Store
 
-# Output files
-all_docs.txt
+# VSCode settings (optional)
+.vscode/
+
+# Data and outputs (optional, if not needed in Git)
+data/
+
+outputs/
